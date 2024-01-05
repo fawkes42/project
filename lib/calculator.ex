@@ -8,4 +8,9 @@ defmodule Calculator do
     # BasicMath.multiply(decimal_percentage, b)
     a |> BasicMath.divide(100) |> BasicMath.multiply(b)
   end
+
+  def find_distance_travaled(speed, time) do
+    # BasicMath.multiply(speed, time)
+    speed |> BasicMath.multiply(time)
+  end
 end

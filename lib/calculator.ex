@@ -4,7 +4,8 @@ defmodule Calculator do
   end
 
   def find_percentage_of_value(a, b) do
-    decimal_percentage = BasicMath.divide(a, 100)
-    BasicMath.multiply(decimal_percentage, b)
+    # decimal_percentage = BasicMath.divide(a, 100)
+    # BasicMath.multiply(decimal_percentage, b)
+    a |> BasicMath.divide(100) |> BasicMath.multiply(b)
   end
 end

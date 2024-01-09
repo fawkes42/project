@@ -13,4 +13,8 @@ defmodule CalculatorTest do
   test "finds the distance traveled" do
     assert Calculator.find_distance_travaled(10, 50) == 500
   end
+
+  test "finds the area of a circle" do
+    assert Calculator.find_area_of_circle(10) == 314.0
+  end
 end

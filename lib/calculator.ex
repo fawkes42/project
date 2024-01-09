@@ -35,4 +35,15 @@ defmodule Calculator do
     # BasicMath.multiply(speed, time)
     speed |> BasicMath.multiply(time)
   end
+
+  @doc """
+  Finds the area of a circle
+  ## Examples
+    iex> Calculator.find_area_of_circle(10)
+    314.0
+  """
+  def find_area_of_circle(radius) do
+    # BasicMath.multiply(BasicMath.multiply(radius, radius), 3.14)
+    radius |> BasicMath.multiply(radius) |> BasicMath.multiply(3.14)
+  end
 end
